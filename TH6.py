@@ -15,7 +15,7 @@ class Solution:
         a=''.join(result)
         print(a)
         return a
-class Solution2:
+class Solution2:     #这是解决方案2
     def change(s ):
         news = [i for i in s]
         news.sort(key=lambda x:x=='a')
